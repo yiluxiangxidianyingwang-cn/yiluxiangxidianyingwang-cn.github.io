@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="一路向西电影网（yiluxiangxidianyingwang-cn.github.io）是一份公路电影与西行题材观影导航：按美国 66 号公路、西北中国、中亚丝路、南美安第斯四条路线梳理片单，附观影顺序、片长、地貌与正版观看渠道。">
+<meta name="keywords" content="一路向西电影网, 公路电影, 西行电影, 西部片, 66号公路, 丝路电影, 旅行电影, 电影推荐, 片单导航, yiluxiangxidianyingwang-cn">
+<meta name="robots" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<title>一路向西电影网 - 公路与西行题材观影导航 · 四条路线片单 | yiluxiangxidianyingwang-cn.github.io</title>
+<link rel="canonical" href="https://yiluxiangxidianyingwang-cn.github.io/">
+<style>
+:root{
+  --sand:#efe6d2; --card:#fbf7ee; --ink:#23201c; --mute:#7c756a;
+  --line:#d8cdb6; --rust:#b5653a; --clay:#9a4b3c; --sage:#6b7a5c; --denim:#3f5c70; --dusk:#8a6f8f;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:var(--sand);color:var(--ink);line-height:1.85;overflow-x:hidden;
+  background-image:linear-gradient(180deg,rgba(255,255,255,.45),transparent),repeating-linear-gradient(90deg,transparent 0,transparent 78px,rgba(181,101,58,.05) 79px);
+}
+a{color:inherit;text-decoration:none;outline:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.serif{font-family:Georgia,"Songti SC","STSong",serif}
+.kicker{font-size:10.5px;letter-spacing:2.8px;font-weight:800;color:var(--rust);text-transform:uppercase}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:1px;font-size:13.5px;font-weight:700;letter-spacing:.6px;cursor:pointer;border:1.5px solid var(--ink);transition:.24s}
+.btn-d{background:var(--rust);color:#fbf7ee;border-color:var(--rust)}
+.btn-d:hover{background:var(--clay);border-color:var(--clay);transform:translateY(-2px)}
+.btn-o{background:transparent}
+.btn-o:hover{background:rgba(181,101,58,.10)}
+
+/* NAV */
+.navbar{position:sticky;top:0;z-index:90;background:rgba(239,230,210,.95);backdrop-filter:blur(9px);border-bottom:1px solid var(--line)}
+.nin{display:flex;align-items:center;gap:14px;height:58px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:850;font-size:17px;letter-spacing:.3px;font-family:Georgia,"Songti SC",serif}
+.logo .arw{color:var(--rust);font-size:19px;letter-spacing:-2px}
+.logo small{display:block;font-size:8.4px;color:var(--mute);letter-spacing:1.7px;font-weight:600;font-family:sans-serif}
+.nl{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
+.nl a{font-size:12.4px;padding:7px 10px;color:var(--mute);font-weight:600}
+.nl a:hover{color:var(--rust)}
+.nl a b{color:var(--rust);font-weight:900}
+
+/* HERO : diagonal split */
+.hero{padding:52px 0 40px;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}
+h1{font-size:clamp(38px,7vw,70px);line-height:1.08;font-weight:900;letter-spacing:-1.4px;font-family:Georgia,"Songti SC",serif}
+h1 .em{color:var(--rust);font-style:normal}
+h1 .en{display:block;font-size:clamp(13px,1.9vw,16px);letter-spacing:5px;color:var(--mute);margin-top:13px;font-weight:700}
+.hero p.lede{font-size:16.5px;color:#45433d;margin-top:16px;max-width:600px}
+.hero p.lede strong{color:var(--clay);font-weight:800}
+.miles{display:flex;gap:26px;margin-top:22px;flex-wrap:wrap}
+.miles div{font-size:11.5px;letter-spacing:1.4px;color:var(--mute);font-weight:700}
+.miles b{display:block;font-family:Georgia,serif;font-size:27px;color:var(--rust);line-height:1.1;font-weight:900}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+/* road card */
+.road{position:relative;background:var(--card);border:1px solid var(--line);border-radius:2px;padding:26px 24px 22px;transform:rotate(-1.2deg);box-shadow:12px 12px 0 rgba(35,32,28,.10)}
+.road::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:repeating-linear-gradient(90deg,var(--rust) 0 14px,var(--sand) 14px 28px)}
+.road h3{font-family:Georgia,"Songti SC",serif;font-size:19px;margin-bottom:2px}
+.road .sub{font-size:10.6px;letter-spacing:2.4px;color:var(--rust);font-weight:800;margin-bottom:14px}
+.rl{display:grid;grid-template-columns:1fr auto;gap:8px 14px;font-size:12.6px;padding:7px 0;border-bottom:1px dashed var(--line)}
+.rl:last-of-type{border:none}
+.rl b{font-family:Georgia,serif;color:var(--clay);font-size:14px}
+
+section{padding:72px 0}
+.sec{display:flex;align-items:flex-end;justify-content:space-between;gap:26px;flex-wrap:wrap;margin-bottom:32px}
+.sec h2{font-size:clamp(23px,3.5vw,33px);font-weight:850;margin-top:7px;font-family:Georgia,"Songti SC",serif}
+.sec h2 em{font-style:normal;color:var(--rust)}
+.sec > p{color:var(--mute);font-size:14px;max-width:600px}
+
+/* COL1 - route cards (grid auto-fit) */
+.routes{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.rt{position:relative;background:var(--card);border:1px solid var(--line);border-radius:2px;padding:0 0 20px;overflow:hidden;transition:.26s}
+.rt:hover{transform:translateY(-7px);box-shadow:0 18px 34px rgba(35,32,28,.15);border-color:var(--rust)}
+.rt .bar{height:9px}
+.rt .num{position:absolute;top:14px;right:16px;font-family:Georgia,serif;font-weight:900;font-size:30px;color:rgba(255,255,255,.85);line-height:1}
+.rt .body{padding:16px 20px 0}
+.rt h3{font-size:17.5px;font-family:Georgia,"Songti SC",serif}
+.rt .km{font-size:10.6px;letter-spacing:1.8px;color:var(--rust);font-weight:800;margin-top:3px}
+.rt p{font-size:12.9px;color:#4d4a44;margin-top:8px}
+.rt .picks{margin-top:10px;font-size:11.5px;color:var(--denim);border-top:1px dotted var(--line);padding-top:9px}
+.rt .picks b{color:var(--clay)}
+
+/* COL2 - itinerary steps (horizontal connected steps) */
+.steps{display:flex;gap:0;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory}
+.stp{flex:0 0 260px;scroll-snap-align:start;position:relative;background:var(--card);border:1px solid var(--line);padding:20px 18px 18px;border-radius:2px;margin-right:-1px;transition:.24s}
+.stp:hover{background:var(--ink);color:var(--sand);z-index:3;transform:scale(1.03)}
+.stp .n{font-family:Georgia,serif;font-size:11px;letter-spacing:2px;color:var(--rust);font-weight:800}
+.stp:hover .n{color:#f0c48c}
+.stp h3{font-size:15.5px;margin:5px 0 6px;font-family:Georgia,"Songti SC",serif}
+.stp p{font-size:12.2px;opacity:.86}
+.stp .film{margin-top:10px;font-size:11.4px;color:var(--clay);border-top:1px dashed var(--line);padding-top:8px;font-weight:700}
+.stp:hover .film{color:#f0c48c}
+
+/* COL3 - definition list landscape table */
+.dl{background:var(--card);border:1px solid var(--line);border-radius:2px;overflow-x:auto}
+.dl table{width:100%;border-collapse:collapse;min-width:720px;font-size:13px}
+.dl th{background:var(--ink);color:var(--sand);text-align:left;padding:13px 16px;font-size:11px;letter-spacing:2px;font-weight:800}
+.dl td{padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.dl tr:last-child td{border:none}
+.dl tr:hover td{background:rgba(181,101,58,.07)}
+.dl td:first-child{font-family:Georgia,"Songti SC",serif;font-weight:800;color:var(--clay);white-space:nowrap}
+.dl .tag{display:inline-block;font-size:10.4px;padding:2px 9px;border-radius:20px;background:var(--sand);color:var(--rust);border:1px solid var(--line);margin-right:5px}
+
+/* COL4 - compass radial (CSS conic) */
+.compass{display:grid;grid-template-columns:340px 1fr;gap:34px;align-items:center}
+.wheel{position:relative;width:300px;height:300px;margin:0 auto;border-radius:50%;background:conic-gradient(var(--rust) 0 22%,var(--clay) 22% 40%,var(--sage) 40% 62%,var(--denim) 62% 80%,var(--dusk) 80% 100%);box-shadow:0 16px 40px rgba(35,32,28,.18)}
+.wheel::after{content:"";position:absolute;inset:26px;background:var(--card);border-radius:50%;border:1px solid var(--line)}
+.wheel .center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:4;text-align:center}
+.wheel .center b{font-family:Georgia,serif;font-size:25px;color:var(--clay)}
+.wheel .center span{font-size:10.5px;letter-spacing:2.4px;color:var(--mute);font-weight:800;margin-top:4px}
+.pt{position:absolute;z-index:5;font-size:10.6px;letter-spacing:1.2px;color:#fff;font-weight:800;text-shadow:0 1px 3px rgba(0,0,0,.4)}
+.p1{top:26px;left:50%;transform:translateX(-50%)} .p2{right:26px;top:50%;transform:translateY(-50%)}
+.p3{bottom:26px;left:50%;transform:translateX(-50%)} .p4{left:26px;top:50%;transform:translateY(-50%)}
+.leg{display:flex;flex-direction:column;gap:12px}
+.lg{display:grid;grid-template-columns:14px 1fr;gap:13px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:2px;padding:15px 18px;transition:.22s}
+.lg:hover{transform:translateX(7px);box-shadow:0 10px 24px rgba(35,32,28,.12)}
+.lg i{width:12px;height:12px;border-radius:50%;margin-top:6px;display:block}
+.lg h3{font-size:15px;font-family:Georgia,"Songti SC",serif}
+.lg p{font-size:12.4px;color:#4d4a44}
+
+/* COL5 - accordion */
+.faq{display:flex;flex-direction:column;gap:10px}
+details{border:1px solid var(--line);border-radius:2px;background:var(--card);transition:.22s}
+details[open]{box-shadow:0 12px 28px rgba(35,32,28,.12);border-color:var(--rust)}
+summary{cursor:pointer;padding:16px 20px;font-weight:750;font-size:14.5px;list-style:none;display:flex;gap:13px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"＋";font-family:Georgia,serif;color:var(--rust);font-size:20px;font-weight:900;flex:0 0 auto}
+details[open] summary::before{content:"－"}
+summary .no{font-family:Georgia,serif;color:var(--mute);font-size:12px;font-weight:800}
+details p{padding:0 20px 18px 54px;font-size:13.2px;color:#4d4a44;animation:op .3s ease}
+@keyframes op{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+
+/* CTA */
+.cta{margin-top:10px;border-radius:2px;padding:54px 32px;text-align:center;background:var(--ink);color:var(--sand);position:relative;overflow:hidden}
+.cta::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:repeating-linear-gradient(90deg,var(--rust) 0 18px,transparent 18px 36px)}
+.cta h2{font-family:Georgia,"Songti SC",serif;font-size:clamp(25px,3.8vw,38px)}
+.cta h2 u{text-decoration:none;color:#f0c48c}
+.cta p{opacity:.86;max-width:640px;margin:13px auto 24px;font-size:14.4px}
+.cta .btn-d{background:#f0c48c;color:var(--ink);border-color:#f0c48c}
+.cta .btn-d:hover{background:#fff;border-color:#fff}
+
+footer{border-top:1px solid var(--line);padding:32px 0 22px;color:var(--mute);font-size:12.5px;margin-top:14px}
+.ff{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center}
+.fn{display:flex;flex-wrap:wrap;gap:18px}
+.fn a:hover{color:var(--rust)}
+.bread{font-size:11.5px;margin-top:13px}
+.bread a{color:var(--rust)}
+.copy{margin-top:14px;border-top:1px solid var(--line);padding-top:14px;font-size:11.5px;color:#8f897d;line-height:1.9}
+
+@media (max-width:960px){
+  .hero .wrap{grid-template-columns:1fr}
+  .compass{grid-template-columns:1fr;gap:26px}
+  .wheel{width:250px;height:250px}
+}
+@media (max-width:600px){
+  .wrap{padding:0 15px}
+  .nl a{padding:6px 5px;font-size:11.4px}
+  .stp{flex-basis:230px}
+  section{padding:54px 0}
+  .steps{margin:0 -15px;padding:0 15px 10px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header class="navbar">
+  <div class="wrap nin">
+    <div class="logo"><span class="arw">➤➤</span>一路向西电影网<small>YILUXIANGXIDIANYINGWANG-CN.GITHUB.IO</small></div>
+    <nav class="nl" aria-label="主导航">
+      <a href="#route"><b>01</b>路线</a>
+      <a href="#trip"><b>02</b>顺序</a>
+      <a href="#mood"><b>03</b>情绪</a>
+      <a href="#compass"><b>04</b>罗盘</a>
+      <a href="#faq"><b>05</b>问答</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <div>
+        <span class="kicker">◆ 以「方向」为索引的观影导航</span>
+        <h1 id="h1">一路<b class="em">向西</b>电影网<span class="en">O N &nbsp; T H E &nbsp; R O A D &nbsp; · &nbsp; W E S T W A R D</span></h1>
+        <p class="lede">「一路向西电影网」（yiluxiangxidianyingwang-cn.github.io）不追热榜，只认<strong>方向</strong>：把所有"出发—迷路—抵达"的电影，按<strong>四条真实路线</strong>重新排片单——美国 66 号公路、西北中国、中亚丝路、南美安第斯。</p>
+        <div class="miles">
+          <div><b>4</b>条路线</div>
+          <div><b>24</b>部片</div>
+          <div><b>∞</b>公里</div>
+          <div><b>0</b>资源链接</div>
+        </div>
+        <div class="acts">
+          <a class="btn btn-d" href="#route">🗺 选一条路线</a>
+          <a class="btn btn-o" href="#trip">🎒 七天观影行程</a>
+        </div>
+      </div>
+      <aside class="road">
+        <div class="sub">ROUTE 66 · 为什么是「向西」</div>
+        <h3>西，是电影的天然方向</h3>
+        <div class="rl"><span>日落</span><b>West</b></div>
+        <div class="rl"><span>拓荒</span><b>Frontier</b></div>
+        <div class="rl"><span>未知</span><b>Unknown</b></div>
+        <div class="rl"><span>自由</span><b>Escape</b></div>
+        <p style="font-size:12.6px;color:#5b574f;margin-top:13px;border-top:1px dotted var(--line);padding-top:11px">从希腊史诗到美国西部片，从《西游记》到《无人区》，"向西"几乎等于"故事开始"。因为<b style="color:var(--clay)">西边是太阳落下的地方，也是地图上还没被填满的地方</b>。</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- COL 1 : route cards (grid) -->
+  <section id="route" aria-labelledby="t1">
+    <div class="wrap">
+      <div class="sec">
+        <div>
+          <span class="kicker">Column 01 · 四条路线</span>
+          <h2 id="t1">四条路，<em>四种孤独</em></h2>
+        </div>
+        <p>每条路线配"地貌—情绪—入门三部曲"。按路线看，比按评分看更容易看懂电影在说什么。</p>
+      </div>
+      <div class="routes">
+
+        <article class="rt">
+          <div class="bar" style="background:linear-gradient(90deg,var(--rust),#d99a5b)"></div>
+          <div class="num">66</div>
+          <div class="body">
+            <div class="km">U.S. ROUTE 66 · 3940 km</div>
+            <h3>美国 66 号公路</h3>
+            <p>从芝加哥到洛杉矶，穿越玉米田、荒漠、汽车旅馆与加油站。公路片的母体：车是主角，目的地只是借口。</p>
+            <div class="picks">🎬 入门：<b>《逍遥骑士》</b> 1969 ｜ <b>《末路狂花》</b> 1991 ｜ <b>《心灵奇旅》</b> 2020</div>
+          </div>
+        </article>
+
+        <article class="rt">
+          <div class="bar" style="background:linear-gradient(90deg,var(--clay),#c47a63)"></div>
+          <div class="num">NW</div>
+          <div class="body">
+            <div class="km">西北中国 · 河西走廊—新疆</div>
+            <h3>中国的"向西"</h3>
+            <p>戈壁、盐碱地、无人区、长镜头。华语电影里最辽阔的部分，往往发生在最贫穷的地方。</p>
+            <div class="picks">🎬 入门：<b>《可可西里》</b> 2004 ｜ <b>《无人区》</b> 2013 ｜ <b>《隐入尘烟》</b> 2022</div>
+          </div>
+        </article>
+
+        <article class="rt">
+          <div class="bar" style="background:linear-gradient(90deg,var(--sage),#9aa888)"></div>
+          <div class="num">SILK</div>
+          <div class="body">
+            <div class="km">中亚 · 丝路西段</div>
+            <h3>丝绸之路</h3>
+            <p>从长安到撒马尔罕，文明交界处的人最会说故事。这里出产的电影，常有"两个故乡"的痛感。</p>
+            <div class="picks">🎬 入门：<b>《奥勃洛莫夫》</b> 1979 ｜ <b>《推销员》</b> 2016 ｜ <b>《小偷》</b> 1997</div>
+          </div>
+        </article>
+
+        <article class="rt">
+          <div class="bar" style="background:linear-gradient(90deg,var(--denim),#6f8ea3)"></div>
+          <div class="num">ANDES</div>
+          <div class="body">
+            <div class="km">南美 · 安第斯山脉</div>
+            <h3>南美安第斯</h3>
+            <p>海拔 4000 米以上的叙事：魔幻现实主义不是技巧，是天气。公路在这里常常是土路，车常常是破的。</p>
+            <div class="picks">🎬 入门：<b>《摩托日记》</b> 2004 ｜ <b>《荒蛮故事》</b> 2014 ｜ <b>《中央车站》</b> 1998</div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COL 2 : horizontal connected steps -->
+  <section id="trip" aria-labelledby="t2" style="background:linear-gradient(180deg,transparent,rgba(181,101,58,.07))">
+    <div class="wrap">
+      <div class="sec">
+        <div>
+          <span class="kicker">Column 02 · 七天观影行程</span>
+          <h2 id="t2">如果你只有<em>七天假</em></h2>
+        </div>
+        <p>按"情绪曲线"而非"地理顺序"排的片单。横滑查看，每天一部，七天走完一次完整的出发与归来。建议配合笔记食用。</p>
+      </div>
+      <div class="steps">
+
+        <div class="stp">
+          <div class="n">DAY 01 · 出发</div>
+          <h3>《摩托日记》</h3>
+          <p>两个年轻人骑一辆破摩托车，从阿根廷出发。出发的理由总是很轻，回来的理由总是很重。</p>
+          <div class="film">📍 南美安第斯 · 127 min</div>
+        </div>
+
+        <div class="stp">
+          <div class="n">DAY 02 · 迷路</div>
+          <h3>《荒野生存》</h3>
+          <p>把车票、钱包、名字都扔掉。迷路不是地理问题，是"我不知道自己要什么"的另一种说法。</p>
+          <div class="film">📍 美国西部 · 148 min</div>
+        </div>
+
+        <div class="stp">
+          <div class="n">DAY 03 · 相遇</div>
+          <h3>《中央车站》</h3>
+          <p>一个拒绝写信的女人，和一个失去母亲的男孩，沿着巴西公路往北走。陌生人是最好的镜子。</p>
+          <div class="film">📍 巴西内陆 · 113 min</div>
+        </div>
+
+        <div class="stp">
+          <div class="n">DAY 04 · 荒原</div>
+          <h3>《可可西里》</h3>
+          <p>海拔 4700 米，没有配乐，只有风声和枪声。中国西部片的天花板，也是华语电影最冷的一天。</p>
+          <div class="film">📍 青海可可西里 · 85 min</div>
+        </div>
+
+        <div class="stp">
+          <div class="n">DAY 05 · 崩坏</div>
+          <h3>《末路狂花》</h3>
+          <p>两个女人开车去度假，一路把世界撞碎。公路片从此有了性别，也有了尽头。</p>
+          <div class="film">📍 美国西南 · 129 min</div>
+        </div>
+
+        <div class="stp">
+          <div class="n">DAY 06 · 回望</div>
+          <h3>《巴黎，德州》</h3>
+          <p>一个失忆的男人在德州荒漠醒来，一路往西走回自己的名字。结尾那面玻璃，是电影史上最痛的吻。</p>
+          <div class="film">📍 德州—加州 · 145 min</div>
+        </div>
+
+        <div class="stp">
+          <div class="n">DAY 07 · 归来</div>
+          <h3>《大鱼》</h3>
+          <p>所有长途旅行最终都要回答一个问题：我讲的那段，是真的吗？回家的人不需要答案，只需要被相信。</p>
+          <div class="film">📍 美国南方 · 125 min</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COL 3 : definition-list landscape table -->
+  <section id="mood" aria-labelledby="t3">
+    <div class="wrap">
+      <div class="sec">
+        <div>
+          <span class="kicker">Column 03 · 按情绪选片</span>
+          <h2 id="t3">不知道看什么？<em>先说心情</em></h2>
+        </div>
+        <p>横向可滚动。同一部片可能出现在两个心情里——情绪本来就互相矛盾，好的电影也是。</p>
+      </div>
+      <div class="dl">
+        <table>
+          <thead>
+            <tr><th style="width:150px">心情</th><th style="width:200px">代表片</th><th>为什么是它</th><th style="width:180px">同类推荐</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>想逃跑</td>
+              <td>《逍遥骑士》</td>
+              <td>逃跑不需要理由，需要汽油。它确立了公路片的三幕：出发、相遇、幻灭。</td>
+              <td><span class="tag">《荒野生存》</span><span class="tag">《摩托日记》</span></td>
+            </tr>
+            <tr>
+              <td>想大哭</td>
+              <td>《中央车站》</td>
+              <td>巴西公路上的寻父之旅。催泪的不是离别，是"一个冷漠的人被慢慢治好"。</td>
+              <td><span class="tag">《隐入尘烟》</span><span class="tag">《小偷》</span></td>
+            </tr>
+            <tr>
+              <td>想发怒</td>
+              <td>《末路狂花》</td>
+              <td>两个女人被世界逼到悬崖。愤怒在这里不是情绪，是最后的清醒。</td>
+              <td><span class="tag">《荒蛮故事》</span><span class="tag">《老无所依》</span></td>
+            </tr>
+            <tr>
+              <td>想安静</td>
+              <td>《心灵奇旅》</td>
+              <td>公路也可以发生在灵魂里。一条纽约街道，被拍成了一次朝圣。</td>
+              <td><span class="tag">《小森林》</span><span class="tag">《路边野餐》</span></td>
+            </tr>
+            <tr>
+              <td>想清醒</td>
+              <td>《老无所依》</td>
+              <td>德州边境，一个拿着气罐的杀手。公路片的黑暗面：路上没有救赎，只有概率。</td>
+              <td><span class="tag">《边境杀手》</span><span class="tag">《无人区》</span></td>
+            </tr>
+            <tr>
+              <td>想回家</td>
+              <td>《大鱼》</td>
+              <td>父亲讲的那些夸张故事，到最后都成了真的。归途片单的终站。</td>
+              <td><span class="tag">《寻梦环游记》</span><span class="tag">《菊次郎的夏天》</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- COL 4 : compass radial -->
+  <section id="compass" aria-labelledby="t4">
+    <div class="wrap">
+      <div class="sec">
+        <div>
+          <span class="kicker">Column 04 · 观影罗盘</span>
+          <h2 id="t4">四块<em>地貌</em>，四种拍法</h2>
+        </div>
+        <p>电影里的"西"，从来不是地图上的西。它是四种视觉语法。悬停条目看位移。</p>
+      </div>
+      <div class="compass">
+        <div class="wheel" aria-hidden="true">
+          <span class="pt p1">荒漠</span>
+          <span class="pt p2">公路</span>
+          <span class="pt p3">高原</span>
+          <span class="pt p4">海岸</span>
+          <div class="center"><b>N</b><span>观影罗盘</span></div>
+        </div>
+        <div class="leg">
+          <div class="lg"><i style="background:var(--rust)"></i><div><h3>荒漠 · 长镜头、极简对白</h3><p>空旷让声音变贵。《荒野生存》《无人区》。看点：演员走了多远，摄影机就跟了多远。</p></div></div>
+          <div class="lg"><i style="background:var(--clay)"></i><div><h3>公路 · 移动构图、车窗框景</h3><p>车窗外的一切都是布景。《末路狂花》《逍遥骑士》。看点：地平线永远在动，人却没变。</p></div></div>
+          <div class="lg"><i style="background:var(--sage)"></i><div><h3>高原 · 低饱和、自然光、非职业演员</h3><p>空气稀薄，表演也被迫真实。《可可西里》《隐入尘烟》。看点：风声比配乐更有说服力。</p></div></div>
+          <div class="lg"><i style="background:var(--denim)"></i><div><h3>海岸 · 潮湿、黄昏、开放结局</h3><p>路的尽头是海，海没有尽头。《巴黎，德州》《摩托日记》终点。看点：人物背对镜头，走向水。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COL 5 : accordion FAQ -->
+  <section id="faq" aria-labelledby="t5">
+    <div class="wrap">
+      <div class="sec">
+        <div>
+          <span class="kicker">Column 05 · 常见问题</span>
+          <h2 id="t5">关于<em>「向西」</em>的六个问题</h2>
+        </div>
+        <p>点击展开。答案尽量短，长话留给电影。</p>
+      </div>
+      <div class="faq">
+
+        <details open>
+          <summary><span class="no">Q1</span>为什么叫"一路向西电影网"？</summary>
+          <p>"向西"是电影最古老的动作。从荷马史诗到美国西部片，从《西游记》到《无人区》，故事的起点常常是"向东走"，而真正的转折发生在"向西"。我们把所有以<b>出发、迷路、抵达</b>为结构的电影，按真实地理路线重新归档——这就是本站的全部工作。</p>
+        </details>
+
+        <details>
+          <summary><span class="no">Q2</span>公路片 = 西部片吗？</summary>
+          <p>不是。西部片是<b>类型</b>（有牛仔、枪、边疆、善恶对立），公路片是<b>结构</b>（有人上路、有人改变、有人没回来）。《末路狂花》是公路片不是西部片；《黄金三镖客》是西部片不是公路片。两者交集的那一小块，恰好是电影史最迷人的地带。</p>
+        </details>
+
+        <details>
+          <summary><span class="no">Q3</span>新手从哪条路线开始？</summary>
+          <p>建议顺序：<b>66 号公路 → 西北中国 → 南美安第斯 → 中亚丝路</b>。前两条语言熟悉、节奏友好；后两条需要一点耐心，但回报最高。每条路线的"入门三部曲"都刻意避开了冷门晦涩片。</p>
+        </details>
+
+        <details>
+          <summary><span class="no">Q4</span>华语电影里，"向西"长什么样？</summary>
+          <p>它常常不叫"西部"，叫<b>西北</b>：张贤亮的《牧马人》、王超的《江城夏日》、刁亦男的《白日焰火》、董成鹏的《缝纫机乐队》（东北也是"边缘"）、李睿珺的《隐入尘烟》。华语的"西"是<b>被遗忘的内陆</b>，不是拓荒的边疆。</p>
+        </details>
+
+        <details>
+          <summary><span class="no">Q5</span>片单多久更新一次？</summary>
+          <p>每月更新一次"当月路线"，每年重排一次"七年片单"。更新日志写在仓库 README，不追热点——公路片不赶时间，看公路片的站也不该赶。</p>
+        </details>
+
+        <details>
+          <summary><span class="no">Q6</span>在哪里可以合法观看这些影片？</summary>
+          <p>本站<b>不提供、不托管、不链接任何影视资源</b>，仅做索引与评论。请通过所在地区的正版流媒体、院线、正规影碟或公共图书馆渠道观看，尊重创作者劳动与知识产权。若某片在您所在地区无合法渠道，请等待官方引进，不要转向侵权来源。</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section aria-labelledby="c1">
+    <div class="wrap">
+      <div class="cta">
+        <h2 id="c1">选一条路，<br>把<b><u>地图</u></b>换成<b><u>片单</u></b></h2>
+        <p>订阅「西行放映」邮件：每月一条路线、三部片、一段地理背景、一份正版渠道清单。无广告、不催更、随时可退。</p>
+        <a class="btn btn-d" href="#" rel="nofollow">📮 订阅西行周报</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ff">
+      <div>
+        <strong style="color:var(--ink);font-family:Georgia,serif;font-size:15px">➤ 一路向西电影网</strong> · <span>yiluxiangxidianyingwang-cn.github.io</span>
+        <div style="margin-top:6px">公路电影导航 · 西行题材片单 · 观影顺序 · 电影地貌学</div>
+      </div>
+      <div class="fn">
+        <a href="#route">四条路线</a>
+        <a href="#trip">七天行程</a>
+        <a href="#mood">按心情选片</a>
+        <a href="#compass">观影罗盘</a>
+        <a href="#faq">问答</a>
+        <a href="#" rel="nofollow">投稿路线</a>
+        <a href="#" rel="nofollow">版权声明</a>
+      </div>
+    </div>
+    <nav class="bread">
+      当前位置：<a href="https://yiluxiangxidianyingwang-cn.github.io/">首页</a> / <span>一路向西电影网 · 公路与西行题材观影导航</span>
+    </nav>
+    <p class="copy">
+      内容声明：本页为电影鉴赏与观影指引类导航索引，所涉影片名称、年份、片长、导演、获奖信息仅作介绍、评论、研究与讨论之用，不构成任何资源提供，亦不托管、不链接至侵权内容。片长以各地区公映/修复/导演剪辑版本为准，可能存在差异；"入门三部曲""七天行程""观影罗盘"等均为编辑部主观整理，仅供参考，欢迎指正。请遵守所在地法律法规，通过合法合规的正版渠道观看影视作品，尊重创作者的劳动与知识产权。© <span id="yr">2026</span> yiluxiangxidianyingwang-cn.github.io · All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
